@@ -1,0 +1,404 @@
+
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Metadatos -->
+    <meta charset="utf-8">
+    <meta name="author" content="Miriam Hernandez Centeno">
+    <meta name="description" content="Portafolio de desarrollo web de Miriam Hernandez Centeno">
+    <meta name="keywords" content="HTML, CSS, JavaScript, React">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Titulo -->
+    <title>Miriam Hernandez Centeno| Desarrollo Web Front-End</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="logo1.png">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- Iconos de Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- CSS -->
+    <link href="stylepf.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Barra de navegacion -->
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+          <a class="navbar-brand" href="#">
+            <img src="logo de la pagina.jpg" width="50" alt="Logo de la página web">
+          </a>
+          <ul class="navbar-nav d-flex justify-content-center align-items-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre serpientes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#proyectos">viboras</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonios">Testimonios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Seccion Hero -->
+    <section class="hero align-items-stretch">
+      <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+        <img class="hero-imagen-desarrollador rounded-circle" src="imagen2.jpg" alt="Foto de Jane Doe">
+        <h1>Las serpientes mas peligrosas</h1>
+        <!--<h2> ¡Si topas alguna cuidado! </h2>-->
+
+        <!--Animación con JavaScript-->
+        <h2 class="text-primary mb-4" id="typewriter"></h2>
+      </div>
+      <div class="hero-inferior">
+        <img class="hero-inferior-imagen img-fluid" src="imagenes/hero-inferior.svg" alt="Monitor, laptop y logos de HTML, CSS, JavaScript y React.">
+      </div>
+    </section>
+
+    <!-- Sobre mi -->
+    <section id="sobre-mi" class="sobre-mi seccion-oscura">
+      <div class="contenedor">
+        <h2 class="seccion-titulo">Conoce la diferencia de serpientes , viboras y culebras</h2>
+        <p class="seccion-texto">Las serpientes son un suborden de los reptiles que se caracterizan por ser vertebradas y por la ausencia de extremidades. Se cuentan 4 mil especies de estos animales.Las víboras conforman la familia Viperidae y se distinguen de otras serpientes por ser siempre venenosas. Son organismos poseedores de una dentición solenoglifa, lo cual hace referencia a la posición y forma que tienen sus colmillos inoculadores de veneno. En la actualidad, se tiene registro de 329 especies.Las culebras representan a la familia Colubridae. En este grupo, mucho más numeroso que el anterior, se suman mil 800 especies, aproximadamente. La constitución física de estos reptiles, comparada con la de las víboras, es uniforme, ya que no cuenta con ese ligero abultamiento de la parte media. A propósito de ello, la cabeza suele tener un diámetro muy similar al del resto del cuerpo.</p>
+      </div>
+    </section>
+
+    <!-- Experiencia -->
+    <section class="experiencia seccion-clara">
+      <div class="container text-center">
+        <div class="row">
+          <!-- Desarrollo Web -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Caracteristicas de las serpientes</p>
+            <p> Tienen la piel recubierta de escamas, un esqueleto que les proporciona mucha flexibilidad y una lengua bífida. Algunas especies matan a sus presas por constricción –por ejemplo las boas–, pero otras lo hacen mediante el veneno que inoculan con los dientes cuando muerden a sus víctimas. Todos los miembros de esta especie son animales carnívoros.</p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Boas</span>
+              <span class="badge text-bg-primary"> Serpiente Tigre</span>
+              <span class="badge text-bg-primary">Mamba Negra</span>
+              <span class="badge text-bg-primary">Taipán de la costa </span>
+            </div>
+          </div>
+          <!-- Articulos -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Ayuda</p>
+            <p>Características de las culebras/serpientes venenosas:
+
+              cabeza en forma de triangulo o diamante
+              pupilas de forma eliptica o como de gato
+              colmillos móviles y largos
+              hoyo facial localizado debajo de los ojos
+              Características de las culebras/serpientes no venenosas:
+              
+              cabeza plana y lisa
+              pupilas redondas
+              no tienen colmillos, solo dientes pequeños </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Veneno</span>
+              <span class="badge text-bg-primary">Comportamiento</span>
+              <span class="badge text-bg-primary">Ataque</span>
+            </div>
+          </div>
+          <!-- Estudiante -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">¿Que hacer?</p>
+            <p>Si es mordido por una de estas:
+              QUE NO DEBE HACER:
+              
+              tratar de atraparla o matar la culebra/serpiente. Esto haría que fuera posible otra mordedura.
+              cortar, succionar, apretar o colocar hielo en el lugar de la mordedura.
+              QUE DEBE HACER: 
+              
+              lavar el area con agua tibia y jabonosa.
+              retirar cualquier joya o ropa que apretar.
+              tratar de entablillar o inmovilizar el área afectada.
+              levantar el área afectada por los menos hasta el nivel del corazón.
+              buscar ayuda medica </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Numeros</span>
+              <span class="badge text-bg-primary">personas especialistas</span>
+              <span class="badge text-bg-primary">Emergencia</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+      <h2 class="seccion-titulo texto-negro">Las serpientes mas peligrosas</h2>
+      <h3 class="seccion-descripcion">Estos son algunas serpientes peligrosas</h3>
+      <!-- Galeria de Proyectos -->
+      <div class="container text-center proyectos-contenedor">
+        <div class="row">
+          <!-- Proyecto 1 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="1.jpg" alt="Proyecto 1">
+              <div class="overlay">
+                <p>serpiente 1</p>
+                <div class="iconos-contenedor">
+                  <a href="https://costarica.inaturalist.org/taxa/35172-Oxyuranus-microlepidotus" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 2 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="2.jpg" alt="Proyecto 1">
+              <div class="overlay">
+                <p>serpiente 2</p>
+                <div class="iconos-contenedor">
+                  <a href="https://www.naturalista.mx/taxa/35140-Pseudonaja-textilis" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 3 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="3p.jpg" alt="Proyecto 1">
+              <div class="overlay">
+                <p>serpiente 3</p>
+                <div class="iconos-contenedor">
+                  <a href="https://www.naturalista.mx/taxa/30442-Bungarus-multicinctus" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 4 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="mamba.jpg" alt="Proyecto 1">
+              <div class="overlay">
+                <p>serpiente 4</p>
+                <div class="iconos-contenedor">
+                  <a href="https://www.naturalista.mx/taxa/30405-Dendroaspis-polylepis" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 5 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="tigre.jpg" alt="Proyecto 1">
+              <div class="overlay">
+                <p>serpiente  5</p>
+                <div class="iconos-contenedor">
+                  <a href="https://www.naturalista.mx/taxa/28627-Spilotes-pullatus" target="_blank" rel="noopener noreferrer"> 
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 6 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="naja.jpg" alt="Proyecto 1">
+              <div class="overlay">
+                <p>serpiente 6</p>
+                <div class="iconos-contenedor">
+                  <a href="https://www.naturalista.mx/taxa/73875-Naja-philippinensis" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="https://storymaps.arcgis.com/stories/90f252e90c3c48268d6d8f334c9fec50" target="_blank" rel="noopener noreferrer">
+        <button type="button" class="btn btn-info">
+          Ver más proyectos
+          <i class="bi bi-arrow-right-circle-fill"></i>
+        </button>
+      </a>
+    </section>
+
+    <!-- Articulos -->
+    <section class="articulos justify-content-start">
+      <h2 class="seccion-titulo texto-negro">Artículos</h2>
+      <div class="card">
+        <div class="card-header">
+          Más recientes
+        </div>
+        <ul class="list-group list-group-flush">
+          <a href="https://www.ngenespanol.com/animales/cual-es-la-diferencia-entre-serpiente-vibora-culebra/">
+            <li class="list-group-item">
+              Diferencias de viboras , serpientes y culebras
+            </li>
+          </a>
+          <a href="https://www.nationalgeographic.com.es/animales/serpientes#:~:text=Las%20serpientes%20son%20un%20tipo,por%20tierra%20como%20por%20agua." target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              Serpientes 
+            </li>
+          </a>
+          <a href="https://www.msdmanuals.com/es-mx/hogar/traumatismos-y-envenenamientos/mordeduras-y-picaduras/mordeduras-de-serpiente" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+             ataques
+            </li>
+          </a>
+        </ul>
+      </div>
+      <a href="https://amc.edu.mx/revistaciencia/images/revista/67_2/PDF/Serpientes.pdf" target="_blank" rel="noopener noreferrer">
+        <button type="button" class="btn btn-info">
+          Ver más artículos
+          <i class="bi bi-arrow-right-circle-fill"></i>
+        </button>
+      </a>
+    </section>
+
+    <!-- Testimonios -->
+    <section id="testimonios" class="testimonios seccion-clara">
+      <h2 class="seccion-titulo">Testimonios</h2>
+      <h3 class="seccion-descripcion">Estos son algunos testimonios de personas atacadas</h3>
+      
+      <!-- Carrusel -->
+      <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="t1.png" alt="Foto de Gino">
+              <p class="testimonio-texto">Cuando Héctor ya tenía la serpiente en sus manos para botarla hacia un matorral, el niño tocó la cola de la serpiente, esta se asustó y mordió a Héctor en su dedo índice derecho.
+
+                “La serpiente que me mordió era muy juvenil, un viborezno, que tienen un veneno muy poderoso porque necesitan que éste sea potente para matar a la presa rápido ya que no tienen capacidad para perseguirla”, rememora Héctor.
+                
+                En ese instante, Héctor supo que el paseo se acabó para él.
+                </p>
+              <div class="testimonio-info">
+                <p class="cliente">HECTOR</p>
+                <p class="cargo">Victima 1</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="23.jpg" alt="Foto de Nora">
+              <p class="testimonio-texto">Mi sobrina fue mordida por una serpiente en el brazo en la noche mientras dormía. La tratamos como nos decían los miembros de la comunidad. Capturamos una rana, la cortamos en dos y la colocamos en la herida para evitar que el veneno se propagara. Le dimos huevo crudo para hacer que vomitara, pero no funcionó. Así que también le hicimos una poción hecha de semillas y hojas molidas, pero no vomitó. No mejoraba y la hinchazón seguía así que decidimos ir al hospital.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Athian Akol Madut</p>
+                <p class="cargo">Tia de la victima 2</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="56.jpg" alt="Foto de Leonardo">
+              <p class="testimonio-texto">Mi hija estaba sentada jugando en el suelo fuera de nuestra casa. Comenzaba a oscurecer cuando una serpiente se acercó y le mordió en el pie.
+ 
+                Maté a la serpiente con un palo. No sé qué especie era, pero era marrón. Pudimos ver las dos marcas de los colmillos en el pie, la herida sangraba y las piernas empezaron a hinchársele hasta la cadera.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Aluk Manut 6 años</p>
+                <p class="cargo">victima 3</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="contacto seccion-oscura">
+      <div class="container">
+        <div class="container text-center rectangulo d-flex justify-content-evenly">
+          <div class="row">
+            <div class="col-12 col-md-4 seccion-titulo">
+              ¡Hablemos!
+            </div>
+            <div class="col-12 col-md-4 descripcion">
+              Contáctame para mas informacion
+            </div>
+            <div class="col-12 col-md-4">
+              <a href="mailto:mirihercen@gmail.com">
+                <button type="button">  
+                  Contacto
+                  <i class="bi bi-envelope-check-fill"></i>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Pie de pagina (footer) -->
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center"> 
+      <img class="footer-logo" src="fin.png" alt="Logo del portafolio">
+      <p class="footer-texto text-center">cuidate<br>ten esta informacion en cuenta</p>
+      <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+        <a href="#" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-twitter"></i>
+        </a>
+        <a href="https://github.com/mirisauria22" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-github"></i>
+        </a>
+        <a href="#" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-linkedin"></i>
+        </a>
+        <a href="https://instagram.com/hercen_miriam?igshid=ZDdkNTZiNTM=" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-instagram"></i>
+        </a>
+        <a href="mailto:mirihercen@gmail.com" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-envelope"></i>
+        </a>
+      </div>
+      <div class="derechos-de-autor">Creado por Miriam Hernandez Centeno (2023) &#169;</div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+        <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+        <script src="main.js"></script>
+
+  </body>
+</html>
